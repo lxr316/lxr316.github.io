@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eh3.oschina.io/"/>
-  <updated>2016-07-20T09:05:37.057Z</updated>
+  <updated>2016-07-20T10:41:15.944Z</updated>
   <id>http://eh3.oschina.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://eh3.oschina.io/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/"/>
     <id>http://eh3.oschina.io/2016/07/20/Java-List与数组之间的转换/</id>
     <published>2016-07-20T07:52:33.000Z</published>
-    <updated>2016-07-20T09:05:37.057Z</updated>
+    <updated>2016-07-20T10:41:15.944Z</updated>
     
     <content type="html">&lt;h3 id=&quot;1-数组转换为List&quot;&gt;&lt;a href=&quot;#1-数组转换为List&quot; class=&quot;headerlink&quot; title=&quot;1. 数组转换为List&quot;&gt;&lt;/a&gt;1. 数组转换为List&lt;/h3&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;String[] arr = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; String[] &amp;#123;&lt;span class=&quot;string&quot;&gt;&quot;str1&quot;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;str2&quot;&lt;/span&gt;&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;List&amp;lt;String&amp;gt; list = Arrays.asList(arr);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
