@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="elvin,henry,Java" />
+  <meta name="keywords" content="Java,List," />
 
 
 
@@ -86,15 +86,16 @@
 
 
 
-<meta name="description" content="幸福其实真的很简单：有人爱； 有事做；有所期待">
-<meta property="og:type" content="website">
-<meta property="og:title" content="匆匆那年">
-<meta property="og:url" content="http://eh3.oschina.io/archives/2016/07/index.html">
+<meta name="description" content="1. 数组转换为List12String[] arr = new String[] &amp;#123;&quot;str1&quot;, &quot;str2&quot;&amp;#125;;List&amp;lt;String&amp;gt; list = Arrays.asList(arr);">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java List与数组之间的转换">
+<meta property="og:url" content="http://eh3.oschina.io/2016/07/20/Java-List与数组之间的转换/index.html">
 <meta property="og:site_name" content="匆匆那年">
-<meta property="og:description" content="幸福其实真的很简单：有人爱； 有事做；有所期待">
+<meta property="og:description" content="1. 数组转换为List12String[] arr = new String[] &amp;#123;&quot;str1&quot;, &quot;str2&quot;&amp;#125;;List&amp;lt;String&amp;gt; list = Arrays.asList(arr);">
+<meta property="og:updated_time" content="2016-07-20T09:05:37.057Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="匆匆那年">
-<meta name="twitter:description" content="幸福其实真的很简单：有人爱； 有事做；有所期待">
+<meta name="twitter:title" content="Java List与数组之间的转换">
+<meta name="twitter:description" content="1. 数组转换为List12String[] arr = new String[] &amp;#123;&quot;str1&quot;, &quot;str2&quot;&amp;#125;;List&amp;lt;String&amp;gt; list = Arrays.asList(arr);">
 
 
 
@@ -115,9 +116,9 @@
 
 
 
-  <link rel="canonical" href="http://eh3.oschina.io/archives/2016/07/"/>
+  <link rel="canonical" href="http://eh3.oschina.io/2016/07/20/Java-List与数组之间的转换/"/>
 
-  <title> 归档 | 匆匆那年 </title>
+  <title> Java List与数组之间的转换 | 匆匆那年 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -148,7 +149,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -279,140 +280,177 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 3 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
-      
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Java List与数组之间的转换
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-20T15:52:33+08:00" content="2016-07-20">
+              2016-07-20
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Java开发技术/" itemprop="url" rel="index">
+                    <span itemprop="name">Java开发技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/20/Java-List与数组之间的转换/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/20/Java-List与数组之间的转换/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <h3 id="1-数组转换为List"><a href="#1-数组转换为List" class="headerlink" title="1. 数组转换为List"></a>1. 数组转换为List</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String[] arr = <span class="keyword">new</span> String[] &#123;<span class="string">"str1"</span>, <span class="string">"str2"</span>&#125;;</div><div class="line">List&lt;String&gt; list = Arrays.asList(arr);</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="2-List转换为数组"><a href="#2-List转换为数组" class="headerlink" title="2 .List转换为数组"></a>2 .List转换为数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">list.add(<span class="string">"str1"</span>);</div><div class="line">list.add(<span class="string">"str2"</span>);</div><div class="line"><span class="keyword">int</span> size = list.size();</div><div class="line">String[] arr = list.toArray(<span class="keyword">new</span> String[size]);</div></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wechat.JPG" alt="小桥流水人家 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎您扫一扫上面的微信号，添加好友！</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>欣赏此文？求鼓励，求支持！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechat-0.JPG" alt="小桥流水人家 WeChat Pay"/>
+          <p>微信打赏</p>
         </div>
       
       
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.JPG" alt="小桥流水人家 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
+    </div>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag">#Java</a>
+          
+            <a href="/tags/List/" rel="tag">#List</a>
+          
+        </div>
+      
 
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/20/Java-List与数组之间的转换/" itemprop="url">
-              
-                <span itemprop="name">Java List与数组之间的转换</span>
-              
-            </a>
-        
-      </h1>
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/20/MySQL日期函数/" rel="next" title="MySQL日期函数">
+                <i class="fa fa-chevron-left"></i> MySQL日期函数
+              </a>
+            
+          </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-20T15:52:33+08:00"
-              content="2016-07-20" >
-          07-20
-        </time>
-      </div>
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
-    </header>
+      
+      
+    </footer>
   </article>
 
 
 
-    
-
+    <div class="post-spread">
       
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/20/MySQL日期函数/" itemprop="url">
-              
-                <span itemprop="name">MySQL日期函数</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-20T14:16:17+08:00"
-              content="2016-07-20" >
-          07-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/19/开始blog，哈哈/" itemprop="url">
-              
-                <span itemprop="name">开始blog，哈哈</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-19T17:16:17+08:00"
-              content="2016-07-19" >
-          07-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
-
-  
-
+    </div>
+  </div>
 
 
           </div>
@@ -420,6 +458,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/07/20/Java-List与数组之间的转换/"
+           data-title="Java List与数组之间的转换" data-url="http://eh3.oschina.io/2016/07/20/Java-List与数组之间的转换/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -439,8 +485,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/logo.jpg"
@@ -545,6 +600,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-数组转换为List"><span class="nav-number">1.</span> <span class="nav-text">1. 数组转换为List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-List转换为数组"><span class="nav-number">2.</span> <span class="nav-text">2 .List转换为数组</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -640,11 +706,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   
